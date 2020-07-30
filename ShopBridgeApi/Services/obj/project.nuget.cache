@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PET7Q9LEvV2p5kKL5tuEKIxODsu4oQgxsuiU/o+KCbKihYZ5/9rxIEjENMJDz/2rl0gQT1Gd49UgKUoiLXaFQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\1689\\Desktop\\Study\\ShopBridge-master\\ShopBridgeApi\\Services\\Services.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\1689\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

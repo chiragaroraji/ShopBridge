@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridgeApi", "ShopBridgeApi\ShopBridgeApi.csproj", "{4188D820-C71E-4F58-8D7B-B1BD1972DF9F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3126BA84-56FB-4EE3-884E-658105699AAF} = {3126BA84-56FB-4EE3-884E-658105699AAF}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6F9B756C-02AB-4D59-8194-04249A7920FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{AADC2966-5C5B-4E5D-9AE2-9C3BD9EE0862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBridge.Services", "Services\ShopBridge.Services\ShopBridge.Services.csproj", "{6881B3D5-ED17-4623-8966-A78E6C989C78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBridge.Services.Interfaces", "Services\ShopBridge.Services.Interfaces\ShopBridge.Services.Interfaces.csproj", "{D28EEBD6-ED5C-4160-96B0-34F4644A7CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBridge.Repository", "ShopBridge.Repository\ShopBridge.Repository.csproj", "{8B6E8115-C7A6-40A0-8819-70B92171BF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBridge.Repository.Interfaces", "ShopBridge.Repository.Interfaces\ShopBridge.Repository.Interfaces.csproj", "{2ABD1CFA-753D-42D1-8E63-5229157DD134}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{CFBB7472-02E6-4672-8768-0502F3914F9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.Core", "Infrastructure.Core", "{A0AEE978-4932-4EBA-BD76-7637CDE979E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBridge.Infrastructure.Core", "ShopBridge.Infrastructure.Core\ShopBridge.Infrastructure.Core.csproj", "{CDD62757-C816-4586-82F1-53F36AC5D1DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{9DFB2488-1ECB-48AD-B6B1-A98136267908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBridge.Models", "ShopBridge.Models\ShopBridge.Models.csproj", "{3126BA84-56FB-4EE3-884E-658105699AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4188D820-C71E-4F58-8D7B-B1BD1972DF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4188D820-C71E-4F58-8D7B-B1BD1972DF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4188D820-C71E-4F58-8D7B-B1BD1972DF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4188D820-C71E-4F58-8D7B-B1BD1972DF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6881B3D5-ED17-4623-8966-A78E6C989C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6881B3D5-ED17-4623-8966-A78E6C989C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6881B3D5-ED17-4623-8966-A78E6C989C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6881B3D5-ED17-4623-8966-A78E6C989C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D28EEBD6-ED5C-4160-96B0-34F4644A7CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28EEBD6-ED5C-4160-96B0-34F4644A7CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28EEBD6-ED5C-4160-96B0-34F4644A7CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28EEBD6-ED5C-4160-96B0-34F4644A7CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6E8115-C7A6-40A0-8819-70B92171BF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6E8115-C7A6-40A0-8819-70B92171BF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6E8115-C7A6-40A0-8819-70B92171BF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6E8115-C7A6-40A0-8819-70B92171BF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ABD1CFA-753D-42D1-8E63-5229157DD134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABD1CFA-753D-42D1-8E63-5229157DD134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABD1CFA-753D-42D1-8E63-5229157DD134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABD1CFA-753D-42D1-8E63-5229157DD134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD62757-C816-4586-82F1-53F36AC5D1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD62757-C816-4586-82F1-53F36AC5D1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD62757-C816-4586-82F1-53F36AC5D1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD62757-C816-4586-82F1-53F36AC5D1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3126BA84-56FB-4EE3-884E-658105699AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3126BA84-56FB-4EE3-884E-658105699AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3126BA84-56FB-4EE3-884E-658105699AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3126BA84-56FB-4EE3-884E-658105699AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4188D820-C71E-4F58-8D7B-B1BD1972DF9F} = {CFBB7472-02E6-4672-8768-0502F3914F9F}
+		{6881B3D5-ED17-4623-8966-A78E6C989C78} = {6F9B756C-02AB-4D59-8194-04249A7920FB}
+		{D28EEBD6-ED5C-4160-96B0-34F4644A7CE5} = {6F9B756C-02AB-4D59-8194-04249A7920FB}
+		{8B6E8115-C7A6-40A0-8819-70B92171BF6C} = {AADC2966-5C5B-4E5D-9AE2-9C3BD9EE0862}
+		{2ABD1CFA-753D-42D1-8E63-5229157DD134} = {AADC2966-5C5B-4E5D-9AE2-9C3BD9EE0862}
+		{CDD62757-C816-4586-82F1-53F36AC5D1DC} = {A0AEE978-4932-4EBA-BD76-7637CDE979E0}
+		{3126BA84-56FB-4EE3-884E-658105699AAF} = {9DFB2488-1ECB-48AD-B6B1-A98136267908}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {532E6E16-B69C-473D-B1DF-D91C4EDEE264}
+	EndGlobalSection
+EndGlobal

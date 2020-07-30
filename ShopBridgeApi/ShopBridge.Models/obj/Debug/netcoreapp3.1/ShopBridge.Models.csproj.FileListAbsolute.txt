@@ -1,0 +1,8 @@
+C:\Users\1689\Desktop\Study\ShopBridge-master\ShopBridgeApi\ShopBridge.Models\bin\Debug\netcoreapp3.1\ShopBridge.Models.deps.json
+C:\Users\1689\Desktop\Study\ShopBridge-master\ShopBridgeApi\ShopBridge.Models\bin\Debug\netcoreapp3.1\ShopBridge.Models.dll
+C:\Users\1689\Desktop\Study\ShopBridge-master\ShopBridgeApi\ShopBridge.Models\bin\Debug\netcoreapp3.1\ShopBridge.Models.pdb
+C:\Users\1689\Desktop\Study\ShopBridge-master\ShopBridgeApi\ShopBridge.Models\obj\Debug\netcoreapp3.1\ShopBridge.Models.csproj.CoreCompileInputs.cache
+C:\Users\1689\Desktop\Study\ShopBridge-master\ShopBridgeApi\ShopBridge.Models\obj\Debug\netcoreapp3.1\ShopBridge.Models.AssemblyInfoInputs.cache
+C:\Users\1689\Desktop\Study\ShopBridge-master\ShopBridgeApi\ShopBridge.Models\obj\Debug\netcoreapp3.1\ShopBridge.Models.AssemblyInfo.cs
+C:\Users\1689\Desktop\Study\ShopBridge-master\ShopBridgeApi\ShopBridge.Models\obj\Debug\netcoreapp3.1\ShopBridge.Models.dll
+C:\Users\1689\Desktop\Study\ShopBridge-master\ShopBridgeApi\ShopBridge.Models\obj\Debug\netcoreapp3.1\ShopBridge.Models.pdb
