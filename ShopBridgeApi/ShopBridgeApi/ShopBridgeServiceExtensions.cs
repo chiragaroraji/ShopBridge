@@ -17,6 +17,9 @@
         /// <param name="services">The services<see cref="IServiceCollection"/>.</param>
         public static void RegisterServices(this IServiceCollection services)
         {
+            services.AddTransient<IShopBridgeItemService, ShopBridgeItemService>();
+            services.AddTransient<IShopBridgeItemRepository, ShopBridgeItemRepository>();
+
         }
     }
 }

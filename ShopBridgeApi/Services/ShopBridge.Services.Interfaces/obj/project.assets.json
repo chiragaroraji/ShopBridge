@@ -1,26 +1,45 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ShopBridge.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ShopBridge.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopBridge.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ShopBridge.Models/1.0.0": {
+      "type": "project",
+      "path": "../../ShopBridge.Models/ShopBridge.Models.csproj",
+      "msbuildProject": "../../ShopBridge.Models/ShopBridge.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ShopBridge.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\1689\\.nuget\\packages\\": {}
+    "C:\\Users\\PREETI\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1689\\Desktop\\Study\\ShopBridge-master\\ShopBridgeApi\\Services\\ShopBridge.Services.Interfaces\\ShopBridge.Services.Interfaces.csproj",
+      "projectUniqueName": "F:\\TechStore\\ShopBridge\\ShopBridgeApi\\Services\\ShopBridge.Services.Interfaces\\ShopBridge.Services.Interfaces.csproj",
       "projectName": "ShopBridge.Services.Interfaces",
-      "projectPath": "C:\\Users\\1689\\Desktop\\Study\\ShopBridge-master\\ShopBridgeApi\\Services\\ShopBridge.Services.Interfaces\\ShopBridge.Services.Interfaces.csproj",
-      "packagesPath": "C:\\Users\\1689\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1689\\Desktop\\Study\\ShopBridge-master\\ShopBridgeApi\\Services\\ShopBridge.Services.Interfaces\\obj\\",
+      "projectPath": "F:\\TechStore\\ShopBridge\\ShopBridgeApi\\Services\\ShopBridge.Services.Interfaces\\ShopBridge.Services.Interfaces.csproj",
+      "packagesPath": "C:\\Users\\PREETI\\.nuget\\packages\\",
+      "outputPath": "F:\\TechStore\\ShopBridge\\ShopBridgeApi\\Services\\ShopBridge.Services.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\1689\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PREETI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,11 +47,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\TechStore\\ShopBridge\\ShopBridgeApi\\ShopBridge.Models\\ShopBridge.Models.csproj": {
+              "projectPath": "F:\\TechStore\\ShopBridge\\ShopBridgeApi\\ShopBridge.Models\\ShopBridge.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -58,7 +81,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

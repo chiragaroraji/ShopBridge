@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "JcvUV+LEXf1iwXmY2W5MKRkc1uZy0Vs+uh/ccTpw3ITsnX5E5eH9lUhiBKJAAlOgeheMKdbL1IfptOsJCwJgig==",
+  "dgSpecHash": "jMsZ4BJGd2cOqNPAS2DmO3C3fS5R6CdCIE7TXmI/BSqzixKpOiIY3lEaQRLeXXP/S4mFKnlCknCXPhybNWv5uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1689\\Desktop\\Study\\ShopBridge-master\\ShopBridgeApi\\ShopBridge.Repository\\ShopBridge.Repository.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\TechStore\\ShopBridge\\ShopBridgeApi\\ShopBridge.Repository\\ShopBridge.Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PREETI\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
+    "C:\\Users\\PREETI\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\PREETI\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\PREETI\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\PREETI\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\PREETI\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\PREETI\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\PREETI\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\system.data.sqlclient.4.8.1.nupkg.sha512",
+    "C:\\Users\\PREETI\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\PREETI\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\PREETI\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

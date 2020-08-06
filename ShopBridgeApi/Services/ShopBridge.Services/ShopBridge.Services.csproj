@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\ShopBridge.Models\ShopBridge.Models.csproj" />
+    <ProjectReference Include="..\..\ShopBridge.Repository.Interfaces\ShopBridge.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\ShopBridge.Services.Interfaces\ShopBridge.Services.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>

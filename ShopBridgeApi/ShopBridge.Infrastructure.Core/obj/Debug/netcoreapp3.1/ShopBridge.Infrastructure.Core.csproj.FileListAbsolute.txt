@@ -1,0 +1,9 @@
+F:\TechStore\ShopBridge\ShopBridgeApi\ShopBridge.Infrastructure.Core\bin\Debug\netcoreapp3.1\ShopBridge.Infrastructure.Core.deps.json
+F:\TechStore\ShopBridge\ShopBridgeApi\ShopBridge.Infrastructure.Core\bin\Debug\netcoreapp3.1\ShopBridge.Infrastructure.Core.dll
+F:\TechStore\ShopBridge\ShopBridgeApi\ShopBridge.Infrastructure.Core\bin\Debug\netcoreapp3.1\ShopBridge.Infrastructure.Core.pdb
+F:\TechStore\ShopBridge\ShopBridgeApi\ShopBridge.Infrastructure.Core\obj\Debug\netcoreapp3.1\ShopBridge.Infrastructure.Core.csprojAssemblyReference.cache
+F:\TechStore\ShopBridge\ShopBridgeApi\ShopBridge.Infrastructure.Core\obj\Debug\netcoreapp3.1\ShopBridge.Infrastructure.Core.AssemblyInfoInputs.cache
+F:\TechStore\ShopBridge\ShopBridgeApi\ShopBridge.Infrastructure.Core\obj\Debug\netcoreapp3.1\ShopBridge.Infrastructure.Core.AssemblyInfo.cs
+F:\TechStore\ShopBridge\ShopBridgeApi\ShopBridge.Infrastructure.Core\obj\Debug\netcoreapp3.1\ShopBridge.Infrastructure.Core.csproj.CoreCompileInputs.cache
+F:\TechStore\ShopBridge\ShopBridgeApi\ShopBridge.Infrastructure.Core\obj\Debug\netcoreapp3.1\ShopBridge.Infrastructure.Core.dll
+F:\TechStore\ShopBridge\ShopBridgeApi\ShopBridge.Infrastructure.Core\obj\Debug\netcoreapp3.1\ShopBridge.Infrastructure.Core.pdb

@@ -26,5 +26,13 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.0.0-rc5" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.0.0-rc5" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Services\ShopBridge.Services.Interfaces\ShopBridge.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\ShopBridge.Services\ShopBridge.Services.csproj" />
+    <ProjectReference Include="..\ShopBridge.Infrastructure.Core\ShopBridge.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\ShopBridge.Models\ShopBridge.Models.csproj" />
+    <ProjectReference Include="..\ShopBridge.Repository.Interfaces\ShopBridge.Repository.Interfaces.csproj" />
+    <ProjectReference Include="..\ShopBridge.Repository\ShopBridge.Repository.csproj" />
+  </ItemGroup>
 
 </Project>

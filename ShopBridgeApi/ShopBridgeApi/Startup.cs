@@ -1,6 +1,5 @@
 namespace ShopBridgeApi
 {
-    using System.IO;
     using System.Net;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Diagnostics;
@@ -46,9 +45,7 @@ namespace ShopBridgeApi
                 options.SerializerSettings.ContractResolver = new DefaultContractResolver();
             });
 
-            // End of the Pascal Notation formatting
-            var appSettingsSection = Configuration.GetSection("AppSettings");
-            services.Configure<AppSettings>(appSettingsSection);
+            //services.ConfigureAll();
 
             // Add the Swagger Definition to the project
             services.AddSwaggerGen(c =>

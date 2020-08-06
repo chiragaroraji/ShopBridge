@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\1689\\.nuget\\packages\\": {}
+    "C:\\Users\\PREETI\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1689\\Desktop\\Study\\ShopBridge-master\\ShopBridgeApi\\ShopBridge.Infrastructure.Core\\ShopBridge.Infrastructure.Core.csproj",
+      "projectUniqueName": "F:\\TechStore\\ShopBridge\\ShopBridgeApi\\ShopBridge.Infrastructure.Core\\ShopBridge.Infrastructure.Core.csproj",
       "projectName": "ShopBridge.Infrastructure.Core",
-      "projectPath": "C:\\Users\\1689\\Desktop\\Study\\ShopBridge-master\\ShopBridgeApi\\ShopBridge.Infrastructure.Core\\ShopBridge.Infrastructure.Core.csproj",
-      "packagesPath": "C:\\Users\\1689\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1689\\Desktop\\Study\\ShopBridge-master\\ShopBridgeApi\\ShopBridge.Infrastructure.Core\\obj\\",
+      "projectPath": "F:\\TechStore\\ShopBridge\\ShopBridgeApi\\ShopBridge.Infrastructure.Core\\ShopBridge.Infrastructure.Core.csproj",
+      "packagesPath": "C:\\Users\\PREETI\\.nuget\\packages\\",
+      "outputPath": "F:\\TechStore\\ShopBridge\\ShopBridgeApi\\ShopBridge.Infrastructure.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\1689\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PREETI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
