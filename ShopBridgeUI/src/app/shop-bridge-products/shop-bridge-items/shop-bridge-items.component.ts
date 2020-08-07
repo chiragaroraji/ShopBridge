@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shop-bridge-items.component.css']
 })
 export class ShopBridgeItemsComponent implements OnInit {
-
+  openItemPopup:boolean=false;
+  ItemId:number;
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  closeItemPopup(val){
+    console.log(val);
+  }
 }

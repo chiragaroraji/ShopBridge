@@ -1,1 +1,10 @@
 <p>shop-bridge-items works!</p>
+
+<button class="btn btn-sm btn-primary" (click)="openItemPopup=true" style="margin-right: 3px"
+        data-toggle="modal" data-target="#open-item-popup">Add
+        Item</button>
+<div id="open-item-popup" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+    <app-shop-bridge-item-form [ItemId]="ItemId" (closeItemPopup)="closeItemPopup($event)"
+        *ngIf="openItemPopup">
+    </app-shop-bridge-item-form>
+</div>

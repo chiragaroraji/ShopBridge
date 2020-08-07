@@ -1,1 +1,56 @@
-<p>shop-bridge-item-form-popup works!</p>
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="hidden" data-dismiss="modal" (click)="closePopUp(false)" #closeBtn></button>
+            <button type="button" class="close" data-dismiss="modal" (click)="closePopUp(false)">&times;</button>
+            <h4  class="modal-title" style="color: #16478d !important;">{{ title }} Notes</h4>
+        </div>
+        <div class="modal-body">
+            <div class="td-space clearfix">
+                <div class="fieldset">
+                    <h4></h4>
+                </div>
+                <div class="form-horizontal view policy gen-info" *ngIf="openForm">
+                  <form [formGroup]="shopBridgeItemFormGroup" (ngSubmit)="openSavePopup()">
+                    <div class="col-sm-12 form-group policy-details">
+                        <label class="col-md-3" for="name">Name</label>
+                        <div class="col-md-9">
+                            <input type="text" maxlength="50" (blur)="onBlurEvent('Name')"
+                                [appAlphaNumericOnly]="addProjectSummaryAlphaPattern"
+                                formControlName="Name"   class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 form-group policy-details">
+                        <label class="col-sm-3" for="name">Description</label>
+                        <div class="col-sm-9 text-right">
+                            <textarea #comments (blur)="onBlurEvent('Description')"  rows="12" type="text" name="Description" placeholder="Please Enter Description"
+                                 id="notes" class="form-control" formControlName="Description" [maxlength]="1000"
+                                (contextmenu)="false" (paste)="onPaste($event)" 
+                                (keyup)="counter()" (keydown)="counter()"></textarea>
+                            <div class="col-md-12 text-right text-black">
+                                <span>{{ maxLength - (!!comment ? comment.length : 0)}} Characters Remaining</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 form-group policy-details">
+                        <label class="col-md-3" for="name">Price</label>
+                        <div class="col-md-9">
+                            <input type="text" maxlength="50" (blur)="onBlurEvent('Price')"
+                                [appAlphaNumericOnly]="addProjectSummaryAlphaPattern"
+                                formControlName="Price"   class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 text-right form-group policy-details" style="padding-right: 30px;">
+                            <button class="btn btn-sm btn-primary"
+                            *ngIf="!enableCancelButton && !IsEditable"(click)="alterForm(true)" >Edit</button>
+                            <button  class="btn btn-sm btn-primary"
+                            *ngIf="enableCancelButton && IsEditable" style="margin: 2px;"(click)="openCancelPopup()">Cancel</button>
+                            <button type="submit" class="btn btn-sm btn-primary"
+                            *ngIf="enableCancelButton && IsEditable" [disabled]="disableForm || shopBridgeItemFormGroup.invalid" >Save</button>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
